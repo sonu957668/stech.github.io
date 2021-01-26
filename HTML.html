@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> HTML Tutorial</title>
+	<style type="text/css">
+		* { 
+			box-sizing: border-box; 
+		} 
+		
+		/* padding for whole body */ 
+		body
+		 { 
+			padding: 15px; 
+			background-color: #01579B;
+			
+		} 
+	/*#Home video
+	{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-height: 100%;
+    min-width: 100%;
+    height: auto;
+    width: auto;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    object-fit: cover;
+    box-sizing: border-box;
+    overflow: hidden;
+    z-index: -100;
+    transition: 1s opacity;
+}*/
+		
+		/* styling body */ 
+		.container { 
+			
+			/*max-width: 1200px;*/ 
+			margin: auto; 
+		} 
+		
+		h1 
+		{ 
+			font-size:120px;
+			color: #DFFF00; 
+			text-align: center;
+		}
+		h4
+		 { 
+			font-size:20px;
+			color: white; 
+			text-align: center;
+		}
+		h2 
+		{ 
+			font-size:30px;
+			color: aqua; 
+			text-align: center;
+		}
+		/* anchor tag decoration */ 
+		a 
+		{ 
+			text-decoration: none; 
+			color: #5673C8; 
+		} 
+		
+		a:hover
+		 { 
+			color: lightblue; 
+		} 
+		
+		/* paragraph tga decoration */ 
+		p 
+		{ 
+			display: -webkit-box; 
+			-webkit-box-orient: vertical; 
+			-webkit-line-clamp: 4; 
+			overflow: hidden; 
+	
+		} 
+		
+		/* row and column decoration */ 
+		.row 
+		{ 
+			margin: 0px -18px; 
+			padding: 8px; 
+		} 
+		
+		.row > .column
+		 { 
+			padding: 6px; 
+		} 
+		
+		.column 
+		{ 
+			float: left; 
+			width: 25%; 
+		} 
+		
+		.row:after
+		 { 
+			content: ""; 
+			display: table; 
+			clear: both; 
+		} 
+		
+		/* content decoration */ 
+		.content 
+		{ 
+			background-color: white; 
+			padding: 10px; 
+			border: 1px solid gray; 
+		} 
+		
+		/* window size 850 width set */ 
+		@media screen and (max-width: 850px)
+		 { 
+			.column 
+			{ 
+				width: 50%; 
+			} 
+		} 
+	
+		/* window size 400 width set */ 
+		@media screen and (max-width: 400px) 
+		{ 
+			.column 
+			{ 
+				width: 50%; 
+			} 
+		} 
+		* { 
+			box-sizing: border-box; 
+		} 
+		
+		
+	</style>
+</head>
+<body background-img="html_image.png">
+	
+     <section id="Home">
+    
+	 <div class="container"> 
+
+		<h1>STECH</h1> 
+		<h2 >HTML Tutorials </h2> 
+		<img src="https://www.geeksforgeeks.org/wp-content/uploads/html.png" alt=" " style="width: 100%" text-allign="center" >
+		<h4>
+		<a style="color:white" href="https://en.wikipedia.org/wiki/HTML">Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
+        </a>
+		</h4>
+		<hr> 
+
+		<!-- Content of the body-->
+		<!--<h2>Portfolio</h2> -->
+		<div class="row"> 
+			<div class="column"> 
+				<div class="content"> 
+					<img src= "https://www.geeksforgeeks.org/wp-content/uploads/html.png"
+						alt="" style="width:100%"> 
+					<h3> 
+						<a href="https://www.tutorialspoint.com/html/index.htm">HTML theory</a> 
+					</h3> 
+					<p> 
+						HTML was developed with the intent of defining the structure of documents like headings, paragraphs, lists, and so forth to facilitate the sharing of scientific information between researchers. Now, HTML is being widely used to format web pages with the help of different tags available in HTML language.
+					</p> 
+				</div> 
+			</div> 
+			
+			<div class="column"> 
+				<div class="content"> 
+					<img src= "https://www.geeksforgeeks.org/wp-content/uploads/html.png"
+						alt="" style="width:100%"> 
+					<h3> 
+						<a href="https://www.w3schools.com/html/html_examples.asp">HTML Programs</a> 
+					</h3> 
+					
+					<p> 
+						The best way to learn HTML is by practicing examples. The page contains examples on basic concepts of HTML. You are advised to try them on your own.
+					</p> 
+				</div> 
+			</div> 
+			
+			<div class="column"> 
+				<div class="content"> 
+					<img src= 
+"https://www.geeksforgeeks.org/wp-content/uploads/html.png"
+						alt="" style="width:100%"> 
+					<h3> 
+						<a href="https://www.tutorialspoint.com/online_html_editor.php">HTML Editor</a> 
+					</h3> 
+					
+					<p> 
+						Online HTML Editor. Code, Compile, Run and Debug HTML program online. Write your code in this editor and press "Preview" button to execute it.
+					</p> 
+				</div> 
+			</div> 
+			
+			<div class="column"> 
+				<div class="content"> 
+					<img src= 
+                             "https://www.geeksforgeeks.org/wp-content/uploads/html.png"
+						alt="" style="width:100%"> 
+					<h3> 
+						<a href="https://www.tutorialspoint.com/cprogramming/cprogramming_online_quiz.htm">HTML Quiz</a> 
+					</h3> 
+					
+					<p> 
+						Test your HTML Skills
+						it's just a nice way to see how much you know, or don't know, about HTML.
+					</p> 
+				</div> 
+			</div> 
+		</div> 		
+	</div> 
+</body>
+</html>
