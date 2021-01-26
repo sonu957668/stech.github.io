@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Tutorial</title>
+	<style type="text/css">
+		* { 
+			box-sizing: border-box; 
+		} 
+		
+		/* padding for whole body */ 
+		body
+		 { 
+			padding: 15px; 
+			background-color: #01579B;
+			
+		} 
+	/*#Home video
+	{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-height: 100%;
+    min-width: 100%;
+    height: auto;
+    width: auto;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    object-fit: cover;
+    box-sizing: border-box;
+    overflow: hidden;
+    z-index: -100;
+    transition: 1s opacity;
+}*/
+		
+		/* styling body */ 
+		.container { 
+			
+			/*max-width: 1200px;*/ 
+			margin: auto; 
+		} 
+		
+		h1 
+		{ 
+			font-size:120px;
+			color: #DFFF00; 
+			text-align: center;
+		}
+		h4
+		 { 
+			font-size:20px;
+			color: white; 
+			text-align: center;
+		}
+		h2 
+		{ 
+			font-size:30px;
+			color: aqua; 
+			text-align: center;
+		}
+		/* anchor tag decoration */ 
+		a 
+		{ 
+			text-decoration: none; 
+			color: #5673C8; 
+		} 
+		
+		a:hover
+		 { 
+			color: lightblue; 
+		} 
+		
+		/* paragraph tga decoration */ 
+		p 
+		{ 
+			display: -webkit-box; 
+			-webkit-box-orient: vertical; 
+			-webkit-line-clamp: 4; 
+			overflow: hidden; 
+	
+		} 
+		
+		/* row and column decoration */ 
+		.row 
+		{ 
+			margin: 0px -18px; 
+			padding: 8px; 
+		} 
+		
+		.row > .column
+		 { 
+			padding: 6px; 
+		} 
+		
+		.column 
+		{ 
+			float: left; 
+			width: 25%; 
+		} 
+		
+		.row:after
+		 { 
+			content: ""; 
+			display: table; 
+			clear: both; 
+		} 
+		
+		/* content decoration */ 
+		.content 
+		{ 
+			background-color: white; 
+			padding: 10px; 
+			border: 1px solid gray; 
+		} 
+		
+		/* window size 850 width set */ 
+		@media screen and (max-width: 850px)
+		 { 
+			.column 
+			{ 
+				width: 50%; 
+			} 
+		} 
+	
+		/* window size 400 width set */ 
+		@media screen and (max-width: 400px) 
+		{ 
+			.column 
+			{ 
+				width: 50%; 
+			} 
+		} 
+		* { 
+			box-sizing: border-box; 
+		} 
+		
+		
+	</style>
+</head>
+<body background-img="html_image.png">
+	
+     <section id="Home">
+    
+	 <div class="container"> 
+
+		<h1>STECH</h1> 
+		<h2 >CSS Tutorial</h2> 
+		<img src="https://www.geeksforgeeks.org/wp-content/uploads/CSS.png" alt=" " style="width: 100%" text-allign="center" >
+		<h4>
+		<a style="color:white" href="https://en.wikipedia.org/wiki/CSS">Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.[1] CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.[2]
+        </a>
+		</h4>
+		<hr> 
+
+		<!-- Content of the body-->
+		<!--<h2>Portfolio</h2> -->
+		<div class="row"> 
+			<div class="column"> 
+				<div class="content"> 
+					<img src= "https://www.geeksforgeeks.org/wp-content/uploads/CSS.png"
+						alt="" style="width:100%"> 
+					<h3> 
+						<a href="https://www.w3schools.com/css/css_intro.asp">CSS Theory</a> 
+					</h3> 
+					<p> 
+						CSS stands for Cascading Style Sheets
+                        CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+                        CSS saves a lot of work. It can control the layout of multiple web pages all at once
+					</p> 
+				</div> 
+			</div> 
+			
+			<div class="column"> 
+				<div class="content"> 
+					<img src= "https://www.geeksforgeeks.org/wp-content/uploads/CSS.png"
+						alt="" style="width:100%"> 
+					<h3> 
+						<a href="https://www.w3schools.com/css/css_examples.asp">CSS Programs</a> 
+					</h3> 
+					
+					<p> 
+						The best way to learn CSS is by practicing. The page contains examples of CSS. You are advised to try them on your own.
+					</p> 
+				</div> 
+			</div> 
+			
+			<div class="column"> 
+				<div class="content"> 
+					<img src= 
+"https://www.geeksforgeeks.org/wp-content/uploads/CSS.png"
+						alt="" style="width:100%"> 
+					<h3> 
+						<a href="https://www.tutorialspoint.com/online_css_editor.php">CSS Compiler</a> 
+					</h3> 
+					
+					<p> 
+						Online CSS Editor. Code, Compile, Run and Debug CSS program online. Write your code in this editor and press "Preview" button to execute it.
+					</p> 
+				</div> 
+			</div> 
+			
+			<div class="column"> 
+				<div class="content"> 
+					<img src= 
+                             "https://www.geeksforgeeks.org/wp-content/uploads/CSS.png"
+						alt="" style="width:100%"> 
+					<h3> 
+						<a href="https://www.w3schools.com/css/css_quiz.asp">Online CSS Quiz</a> 
+					</h3> 
+					
+					<p> 
+						Test your CSS Skills
+						it's just a nice way to see how much you know, or don't know, about CSS.
+						The test contains 25 questions and there is no time limit. 
+					</p> 
+				</div> 
+			</div> 
+		</div> 		
+	</div> 
+</body>
+</html>
